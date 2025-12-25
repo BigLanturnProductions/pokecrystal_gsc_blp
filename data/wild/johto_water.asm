@@ -170,11 +170,11 @@ JohtoWaterWildMons:
 	db 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_41
+	def_water_wildmons ROUTE_41 ; BLP_Edit (see docs)
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
-	db 20, TENTACRUEL
 	db 20, MANTINE
+	db 20, REMORAID
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_42
